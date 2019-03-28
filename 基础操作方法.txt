@@ -3,7 +3,29 @@
 
 默认在当前路径生成.ssh文件夹，里面生成id_rsa  id_rsa.pub这两文件，将id_rsa.pub的公钥复制到自己的github账户下的，settings->SSH and GPG keys->new ssh key中即可
 
-2、克隆项目到本地
+2、一些配置
+git config --global user.name "填自己的名字"
+git config --global user.email "你的邮箱@qq.com"
+
+2、克隆项目到本地（自己创建文件夹，cd到该文件夹下）
 git clone https://github.com/1615228281/test.git
 
-3、
+3、提交项目到github
+3.1 添加自己的文件 git add test.txt
+3.2 提交一下       git commit -m "这是自己的注释"
+3.3 push一下       git push origin master
+
+弹出需要填写账户密码，填入自己的github账户密码即可
+
+当没有先同步github上的仓库，想直接提交代码，可以按照下面的来，但是前提是mytest仓库已经创建
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/geeeeet/mytest.git
+git push -u origin master
+
+
+git init #默认将当前目录转换成git仓库，它在当前的目录下增加了一个 .git 目录，于是就可以开始记录项目版本了。
+
+git init <directory>  #指定目录
+
