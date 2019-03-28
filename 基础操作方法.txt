@@ -1,0 +1,9 @@
+1、生成密钥
+ ssh-keygen -t rsa
+
+默认在当前路径生成.ssh文件夹，里面生成id_rsa  id_rsa.pub这两文件，将id_rsa.pub的公钥复制到自己的github账户下的，settings->SSH and GPG keys->new ssh key中即可
+
+2、克隆项目到本地
+git clone https://github.com/1615228281/test.git
+
+3、
