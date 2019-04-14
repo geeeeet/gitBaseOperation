@@ -1,31 +1,31 @@
-1¡¢Éú³ÉÃÜÔ¿
+1ã€ç”Ÿæˆå¯†é’¥
  ssh-keygen -t rsa
 
-Ä¬ÈÏÔÚµ±Ç°Â·¾¶Éú³É.sshÎÄ¼ş¼Ğ£¬ÀïÃæÉú³Éid_rsa  id_rsa.pubÕâÁ½ÎÄ¼ş£¬½«id_rsa.pubµÄ¹«Ô¿¸´ÖÆµ½×Ô¼ºµÄgithubÕË»§ÏÂµÄ£¬settings->SSH and GPG keys->new ssh keyÖĞ¼´¿É
+é»˜è®¤åœ¨å½“å‰è·¯å¾„ç”Ÿæˆ.sshæ–‡ä»¶å¤¹ï¼Œé‡Œé¢ç”Ÿæˆid_rsa  id_rsa.pubè¿™ä¸¤æ–‡ä»¶ï¼Œå°†id_rsa.pubçš„å…¬é’¥å¤åˆ¶åˆ°è‡ªå·±çš„githubè´¦æˆ·ä¸‹çš„ï¼Œsettings->SSH and GPG keys->new ssh keyä¸­å³å¯
 
-2¡¢Ò»Ğ©ÅäÖÃ
-git config --global user.name "Ìî×Ô¼ºµÄÃû×Ö"
-git config --global user.email "ÄãµÄÓÊÏä@qq.com"
+2ã€ä¸€äº›é…ç½®
+git config --global user.name "å¡«è‡ªå·±çš„åå­—"
+git config --global user.email "ä½ çš„é‚®ç®±@qq.com"
 
-2¡¢¿ËÂ¡ÏîÄ¿µ½±¾µØ£¨×Ô¼º´´½¨ÎÄ¼ş¼Ğ£¬cdµ½¸ÃÎÄ¼ş¼ĞÏÂ£©
+2ã€å…‹éš†é¡¹ç›®åˆ°æœ¬åœ°ï¼ˆè‡ªå·±åˆ›å»ºæ–‡ä»¶å¤¹ï¼Œcdåˆ°è¯¥æ–‡ä»¶å¤¹ä¸‹ï¼‰
 git clone https://github.com/1615228281/test.git
 
-3¡¢Ìá½»ÏîÄ¿µ½github
-3.1 Ìí¼Ó×Ô¼ºµÄÎÄ¼ş git add test.txt
-3.2 Ìá½»Ò»ÏÂ       git commit -m "ÕâÊÇ×Ô¼ºµÄ×¢ÊÍ"
-3.3 pushÒ»ÏÂ       git push origin master
+3ã€æäº¤é¡¹ç›®åˆ°github
+3.1 æ·»åŠ è‡ªå·±çš„æ–‡ä»¶ git add test.txt
+3.2 æäº¤ä¸€ä¸‹       git commit -m "è¿™æ˜¯è‡ªå·±çš„æ³¨é‡Š"
+3.3 pushä¸€ä¸‹       git push origin master
 
-µ¯³öĞèÒªÌîĞ´ÕË»§ÃÜÂë£¬ÌîÈë×Ô¼ºµÄgithubÕË»§ÃÜÂë¼´¿É
+å¼¹å‡ºéœ€è¦å¡«å†™è´¦æˆ·å¯†ç ï¼Œå¡«å…¥è‡ªå·±çš„githubè´¦æˆ·å¯†ç å³å¯
 
-µ±Ã»ÓĞÏÈÍ¬²½githubÉÏµÄ²Ö¿â£¬ÏëÖ±½ÓÌá½»´úÂë£¬¿ÉÒÔ°´ÕÕÏÂÃæµÄÀ´£¬µ«ÊÇÇ°ÌáÊÇmytest²Ö¿âÒÑ¾­´´½¨
+å½“æ²¡æœ‰å…ˆåŒæ­¥githubä¸Šçš„ä»“åº“ï¼Œæƒ³ç›´æ¥æäº¤ä»£ç ï¼Œå¯ä»¥æŒ‰ç…§ä¸‹é¢çš„æ¥ï¼Œä½†æ˜¯å‰ææ˜¯mytestä»“åº“å·²ç»åˆ›å»º
 git init
-git add README.md
+git add "è¿™æ˜¯ä½ éœ€è¦ä¸Šä¼ çš„ä¸œè¥¿ï¼Œä¸éœ€è¦åŠ åŒå¼•å·"
 git commit -m "first commit"
 git remote add origin https://github.com/geeeeet/mytest.git
 git push -u origin master
 
 
-git init #Ä¬ÈÏ½«µ±Ç°Ä¿Â¼×ª»»³Égit²Ö¿â£¬ËüÔÚµ±Ç°µÄÄ¿Â¼ÏÂÔö¼ÓÁËÒ»¸ö .git Ä¿Â¼£¬ÓÚÊÇ¾Í¿ÉÒÔ¿ªÊ¼¼ÇÂ¼ÏîÄ¿°æ±¾ÁË¡£
+git init #é»˜è®¤å°†å½“å‰ç›®å½•è½¬æ¢æˆgitä»“åº“ï¼Œå®ƒåœ¨å½“å‰çš„ç›®å½•ä¸‹å¢åŠ äº†ä¸€ä¸ª .git ç›®å½•ï¼Œäºæ˜¯å°±å¯ä»¥å¼€å§‹è®°å½•é¡¹ç›®ç‰ˆæœ¬äº†ã€‚
 
-git init <directory>  #Ö¸¶¨Ä¿Â¼
+git init <directory>  #æŒ‡å®šç›®å½•
 
